@@ -1,0 +1,17 @@
+/* Carousel
+   ========================================================================== */
+
+.carousel {
+  margin: 0 16px;
+
+  i.material-icons {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+  }
+
+  .img-full {
+    min-width: 100%;
+  }
+}

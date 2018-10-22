@@ -1,0 +1,15 @@
+/* Presets
+   ========================================================================== */
+
+body {
+  color: #5a5a5a;
+}
+
+a {
+  color: $color_brand;
+
+  &:focus,
+  &:hover {
+    color: darken($color_brand, 10%);
+  }
+}

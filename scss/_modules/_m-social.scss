@@ -1,0 +1,16 @@
+/* Social
+   ========================================================================== */
+
+.social {
+  padding: 0;
+  list-style: none;
+  
+
+  li {
+    display: inline;
+  }
+
+  li + li {
+    padding-left: 0.5rem;
+  }
+}

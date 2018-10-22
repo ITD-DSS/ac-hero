@@ -1,0 +1,426 @@
+@charset 'UTF-8';
+
+/* Fonts
+   ========================================================================== */
+
+@import 'https://fonts.googleapis.com/css?family=Material+Icons';
+
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+/* Presets
+   ========================================================================== */
+
+body {
+  color: #5a5a5a;
+}
+
+a {
+  color: #1976d2;
+}
+
+a:focus, a:hover {
+  color: #145ca4;
+}
+
+/* Headings
+   ========================================================================== */
+
+/* ==========================================================================
+   Layout Styles
+   ========================================================================== */
+
+/* Padding Classes
+   ========================================================================== */
+
+.inner {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.inner-md {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.inner-sm {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.inner-xs {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.inner-top {
+  padding-top: 120px;
+}
+
+.inner-top-md {
+  padding-top: 100px;
+}
+
+.inner-top-sm {
+  padding-top: 80px;
+}
+
+.inner-top-xs {
+  padding-top: 40px;
+}
+
+.inner-bottom {
+  padding-bottom: 120px;
+}
+
+.inner-bottom-md {
+  padding-bottom: 100px;
+}
+
+.inner-bottom-sm {
+  padding-bottom: 80px;
+}
+
+.inner-bottom-xs {
+  padding-bottom: 40px;
+}
+
+.inner-left {
+  padding-left: 75px;
+}
+
+.inner-left-md {
+  padding-left: 60px;
+}
+
+.inner-left-sm {
+  padding-left: 45px;
+}
+
+.inner-left-xs {
+  padding-left: 30px;
+}
+
+.inner-right {
+  padding-right: 75px;
+}
+
+.inner-right-md {
+  padding-right: 60px;
+}
+
+.inner-right-sm {
+  padding-right: 45px;
+}
+
+.inner-right-xs {
+  padding-right: 30px;
+}
+
+/* ==========================================================================
+   Module Styles
+   ========================================================================== */
+
+/* County Branding (The top bar)
+   ========================================================================== */
+
+.countybranding {
+  padding: 10px;
+  background: rgba(242, 245, 247, 0.9);
+  border-bottom: 1px solid #e6e9ed;
+}
+
+.countybranding__logo {
+  max-width: 150px;
+  opacity: 0.5;
+}
+
+.countybranding__logo:hover {
+  opacity: 1;
+}
+
+.countybranding__skip-banner {
+  line-height: 30px;
+}
+
+/* Navbar
+   ========================================================================== */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  padding: 5px 15px;
+  line-height: 40px;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+.dropdown-arrow {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -ms-transform: translateY(2px);
+      transform: translateY(2px);
+}
+
+.dropdown-arrow:before {
+  content: '\e5c5';
+}
+
+/* Hero
+   ========================================================================== */
+
+.hero {
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  height: 500px;
+  min-height: 500px;
+  color: #ffffff;
+  font-size: 24px;
+  display: table;
+  width: 100%;
+}
+
+.hero > .wrapper {
+  background: rgba(0, 0, 0, 0.25);
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Icon
+   ========================================================================== */
+
+.icon {
+  color: #5a5a5a;
+}
+
+.icon--lg {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.icon--lg i {
+  font-size: 85px;
+  color: #5a5a5a;
+}
+
+.icon--xl {
+  font-size: 12em;
+}
+
+/* Divider
+   ========================================================================== */
+
+.divider--featurette {
+  margin: 80px 0;
+}
+
+/* Accordion
+   ========================================================================== */
+
+.accordion .panel-toggle {
+  display: block;
+}
+
+/* Footer
+   ========================================================================== */
+
+.footer {
+  background: #1976d2;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.footer .container.inner {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer a {
+  color: #ffffff;
+}
+
+.footer h2 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.footer ul {
+  list-style: none;
+  position: relative;
+  margin: 0;
+}
+
+.footer ul.contacts li {
+  margin-bottom: 2px;
+}
+
+.footer__info > div {
+  float: left;
+  padding-left: 1rem;
+  height: 100%;
+}
+
+.footer__info img {
+  vertical-align: initial;
+}
+
+.footer__menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer__menu li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.footer__menu li + li:before {
+  display: inline-block;
+  content: '·';
+  padding-right: 12px;
+}
+
+/* Social
+   ========================================================================== */
+
+.social {
+  padding: 0;
+  list-style: none;
+}
+
+.social li {
+  display: inline;
+}
+
+.social li + li {
+  padding-left: 0.5rem;
+}
+
+/* Contacts
+   ========================================================================== */
+
+ul.contacts {
+  padding-left: 0;
+}
+
+ul.contacts li {
+  margin-bottom: 5px;
+}
+
+i.contact {
+  font-size: inherit;
+  margin-right: 5px;
+  width: auto;
+  height: auto;
+  line-height: 18px;
+  -ms-transform: translateY(2px);
+      transform: translateY(2px);
+}
+
+/* Carousel
+   ========================================================================== */
+
+.carousel {
+  margin: 0 16px;
+}
+
+.carousel i.material-icons {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+
+.carousel .img-full {
+  min-width: 100%;
+}
+
+/* ==========================================================================
+   Helper Classes
+   ========================================================================== */
+
+.vertical-align {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.color--brand {
+  color: #1976d2;
+}
+
+.text-left-xs {
+  text-align: left;
+}
+
+.adobe-reader {
+  margin-top: 8px;
+}
+
+/* ==========================================================================
+   Responsive Styles
+   ========================================================================== */
+
+@media (min-width: 768px) {
+  .navbar {
+    margin: 30px auto 0 auto;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 0;
+    background: #1976d2;
+    text-align: center;
+  }
+
+  .divider--featurette {
+    margin: 30px 0;
+  }
+
+  .footer p.pull-left, .footer ul.pull-right {
+    float: none !important;
+    text-align: center;
+  }
+
+  .footer__info > div {
+    float: none;
+    text-align: center;
+  }
+
+  .col-md-3 {
+    margin-bottom: 4rem;
+  }
+
+  .adobe-reader {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .hero p {
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  }
+}

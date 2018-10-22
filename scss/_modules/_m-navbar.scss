@@ -1,0 +1,41 @@
+/* Navbar
+   ========================================================================== */
+
+.navbar {
+  margin-bottom: 0;
+
+  @media (min-width: $screen-sm) {
+    margin: 30px auto 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.navbar-brand {
+  padding: 5px 15px;
+  line-height: 40px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.dropdown-arrow {
+  font-family: $font_material-icons;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  transform: translateY(2px);
+
+  &:before {
+    content: '\e5c5';
+  }
+}

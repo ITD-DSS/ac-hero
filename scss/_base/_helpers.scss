@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Helper Classes
+   ========================================================================== */
+
+.vertical-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color--brand {
+ color: $color_brand; 
+}
+
+.text-left-xs {
+  text-align: left;
+}
+
+.col-md-3 {
+  @media (max-width: $screen-sm) {
+    margin-bottom: 4rem;
+  }
+}
+
+.adobe-reader {
+  margin-top: 8px;
+
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
+}

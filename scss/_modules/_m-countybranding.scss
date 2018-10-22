@@ -1,0 +1,21 @@
+/* County Branding (The top bar)
+   ========================================================================== */
+
+.countybranding {
+  padding: 10px;
+  background: rgba(242, 245, 247, 0.9);
+  border-bottom: 1px solid #e6e9ed;
+}
+
+.countybranding__logo {
+  max-width: 150px;
+  opacity: .5;
+  
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.countybranding__skip-banner {
+  line-height: 30px;
+}

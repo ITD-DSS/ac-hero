@@ -1,0 +1,19 @@
+/* Contacts
+   ========================================================================== */
+
+ul.contacts {
+  padding-left: 0;
+
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+i.contact {
+  font-size: inherit;
+  margin-right: 5px;
+  width: auto;
+  height: auto;
+  line-height: 18px;
+  transform: translateY(2px);
+}
